@@ -1,0 +1,27 @@
+
+body {
+  	margin-top: 100px;
+  	margin-bottom: 100px;
+  	margin-right: 150px;
+	margin-left: 80px;
+  	background-color: #363636;
+}
+
+.content {
+  	max-width: 600px;
+  	margin: auto;
+	background-color: #ffc233;
+}
+
+h1 {
+  	max-width: 550px;
+  	margin: auto;
+	font-family: "Comic Sans MS";
+}
+
+p {
+	
+	max-width: 600px;
+  	margin: auto;	
+	
+}
