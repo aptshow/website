@@ -1,19 +1,19 @@
 body {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Verdana;
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
     min-height: 100vh;
-	background-color: #3d3d3d;
-	background-image:url("images/mati.webp");
+	background-color: #024073;
+	.//background-image:url("images/mati.webp");
 }
 
 .hoja {
     background-color: #42aaff;
     width: 80%;
-    max-width: 800px;
+    max-width: 1100px;
     min-height: 90vh;
     padding: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -22,8 +22,11 @@ body {
 }
 
 .content {
+	
     color: #000000;
     line-height: 1.6;
+	text-align: center;
+	font-size: 20px;
 }
 
 h1 {
@@ -41,15 +44,22 @@ h2 {
     text-align: center;
 	font-size: 40px;
 }
-
-p {
-    margin-bottom: 20px;
-    text-align: center;
-	font-size: 30px;
-	font-weight: bold;
+img {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .cosasquehaceaptshowinc {
-	background-color: #55bef2;	
-	margin-bottom: 100px;
+	text-align: center;
+	padding: 40px;
+	background-color: #0582e8;	
+	margin-bottom: 70px;
+	font-size: 36px;
+}
+
+.onelastthing {
+	font-size: 14px;
+	margin-top: 20px;
 }
