@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+	background-color: #3d3d3d;
+	background-image:url("images/mati.webp");
+}
+
+.hoja {
+    background-color: #42aaff;
+    width: 80%;
+    max-width: 800px;
+    min-height: 90vh;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 2px;
+}
+
+.content {
+    color: #000000;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+	font-family: "Comic Sans MS";
+	font-size: 50px;
+	font-weight: bolder;
+	background-color: #d9ff42;
+}
+
+h2 {
+	color: #00000;
+    text-align: center;
+	font-size: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.cosasquehaceaptshowinc {
+	background-color: #55bef2;	
+	margin-bottom: 100px;
+}
