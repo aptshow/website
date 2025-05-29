@@ -7,10 +7,12 @@ function attemptLogin() {
         
         const audio = new Audio('wow.mp3');
         audio.play();
+        const audio2 = new Audio('../music/aptheme.ogg');
+        audio2.play();
 
         setTimeout(() => {
             window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-        }, 5000);
+        }, 118000);
     }, 2000);
     return false;
 }
