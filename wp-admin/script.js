@@ -4,10 +4,10 @@ function attemptLogin() {
         document.querySelector('.login-form').style.display = 'none';
         document.querySelector('.message').style.display = 'block';
         document.querySelector('#hackerman').style.display = 'block';
-        
-        const audio = new Audio('wow.mp3');
+
+        const audio = new Audio('sfx/wow.mp3');
         audio.play();
-        const audio2 = new Audio('../music/aptheme.ogg');
+        const audio2 = new Audio('sfx/aptheme.ogg');
         audio2.play();
 
         setTimeout(() => {
