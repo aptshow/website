@@ -129,3 +129,109 @@ img {
     50% { text-shadow: 2px 2px 10px #00ff00; }
     100% { text-shadow: 2px 2px 5px #ff0000; }
 }
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    padding: 20px;
+}
+.modal {
+    background: #ffffff;
+    color: #111;
+    max-width: 720px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: left;
+}
+.modal h2 {
+    margin-top: 0;
+    color: #b00020;
+    font-size: 24px;
+}
+
+.modal h2 {
+    font-family: Arial, Helvetica, system-ui, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+    color: #b00020;
+}
+
+.modal-note {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #333;
+}
+.modal p { margin: 12px 0; font-size: 16px; }
+.modal-small { font-size: 12px; color: #555; margin-top: 8px; }
+.modal-actions { text-align: right; margin-top: 12px; }
+.btn {
+    background: linear-gradient(180deg,#2b8aff,#0b63ff);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:focus { outline: 3px solid #ffd54d; }
+
+.btn[disabled], .btn[aria-disabled="true"] {
+    opacity: 0.45;
+    cursor: not-allowed;
+    filter: grayscale(40%);
+    box-shadow: none;
+}
+.btn[disabled]:hover, .btn[aria-disabled="true"]:hover {
+    transform: none;
+}
+.modal p { margin: 12px 0; font-size: 16px; }
+.modal-small { font-size: 12px; color: #555; margin-top: 8px; }
+.modal-actions { text-align: right; margin-top: 12px; }
+.btn {
+    background: linear-gradient(180deg,#2b8aff,#0b63ff);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:focus { outline: 3px solid #ffd54d; }
+
+.blurred {
+    filter: blur(8px) brightness(0.9);
+    pointer-events: none;
+    user-select: none;
+}
+
+@media (max-width: 520px) {
+    .modal { padding: 14px; }
+    .modal h2 { font-size: 18px; }
+}
+
+.modal, .modal * {
+    animation: none !important;
+    -webkit-animation: none !important;
+    text-shadow: none !important;
+}
+
+body:not(.unpaused),
+body:not(.unpaused) * {
+    animation: none !important;
+    -webkit-animation: none !important;
+    animation-play-state: paused !important;
+    -webkit-animation-play-state: paused !important;
+    transition: none !important;
+}
+
+.modal-overlay {
+    z-index: 99999;
+}

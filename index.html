@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APTshow Incorporation: The Website.</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="scroll-rotate.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>APTshow Incorporation: The Website.</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scroll-rotate.js"></script>
+	<script src="galletes.js"></script>
 </head>
+
 <body>
-    <div class="hoja">
-        <div class="content">
-            <img src="images/aptshow_banner.png" style="text-allign: center;">
-            
+	<div class="hoja" id="page-hoja">
+		<div class="content">
+			<img src="images/aptshow_banner.png" style="text-allign: center;">
+
 			<h2> <u> At APT Show Incorporation, we... </u> </h2>
-			
+
 			<div class="cosasquehaceaptshowinc">
-					<p> Build Networks </p>
-					<p> Build Systems </p>
-					<p> Capitalize on your needs </p>
-					<p> Build Railroads </p>
-					<p> Hire <strong> expert </strong> <a href="https://www.roblox.com/users/645101374/profile">web-engineers </a> </p>
-					<p> May or may not have to do with a certain prison where you're forced to do java </p>
-			</div>	
-			
+				<p> Build Networks </p>
+				<p> Build Systems </p>
+				<p> Capitalize on your needs </p>
+				<p> Build Railroads </p>
+				<p> Hire <strong> expert </strong> <a
+						href="https://www.roblox.com/users/645101374/profile">web-engineers </a> </p>
+				<p> May or may not have to do with a certain prison where you're forced to do java </p>
+			</div>
+
 			<p style="font-size: 40px;"> <strong> And we make it so you can see your IP! </strong> </p>
-			
+
 			<hr>
-			<p> All of this is possible thanks to our energy provider <span style="color: #a655f2;"> <strong> <a href="https://crujedrola-crujera.galnod.com">Crujedrola</a> </strong> </span> and other contributors.
-			<hr>
-			
+			<p> All of this is possible thanks to our energy provider <span style="color: #a655f2;"> <strong> <a
+							href="https://crujedrola.crujera.net">Crujedrola</a> </strong> </span> and other
+				contributors.
+				<hr>
+
 			<div class="onelastthing">
 				<p> More About Us </p>
 				<p> <a href="ourdevs/devs.html"> Our pro hackerman developers </a> </p>
 				<p> <a href="https://github.com/aptshow"> Our GitHub Organization </a> </p>
-				<p><a href="wp-admin/index.html">Our *totally* top-secret WordPress admin panel — username: <code>admin</code>, password: <code>12345678</code></a></p>
+				<p><a href="wp-admin/index.html">Our *totally* top-secret WordPress admin panel — username:
+						<code>admin</code>, password: <code>12345678</code></a></p>
 				<p> <a href="https://aptshow.github.io/website"> Our Website </a> </p>
 			</div>
-			
-    </div>
+
+		</div>
+
+	</div>
+
+	<div id="warning-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="warning-title"
+		aria-describedby="warning-desc">
+		<div class="modal" role="document">
+			<h2 id="warning-title">Attention Visual / Sensory Warning</h2>
+			<p id="warning-desc">This site intentionally contains strong colors, flashing and chaotic visuals which
+				may affect people who are hypersensitive or have epilepsy. Viewer discretion is advised.</p>
+			<div class="modal-actions">
+				<button id="warning-accept" class="btn" disabled>I understand and I wish to continue</button>
+				<p id="warning-countdown" class="modal-countdown" aria-live="polite">Please wait <span
+						id="countdown-num">10</span>s before you can accept</p>
+			</div>
+			<p class="modal-small">This message will not be shown again on this device for one year (stored in a
+				cookie).</p>
+			<p class="modal-note">Note: apart from the viewer-discretion cookie used to remember your choice, we do not
+				store any other cookies or device data on your device.</p>
+		</div>
+	</div>
 </body>
+
 </html>
